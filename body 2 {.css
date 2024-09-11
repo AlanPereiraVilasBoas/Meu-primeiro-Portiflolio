@@ -10,27 +10,26 @@ body {
 }
 
 header, section, div, footer {
-    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente para maior contraste */
+    background-color: rgba(0, 0, 0, 0.6); 
     padding: 20px;
-    border-radius: 8px; /* Bordas arredondadas */
+    border-radius: 8px; 
 }
 
 h1, h2, p, a {
-    color: #fff; /* Texto branco para contraste */
-}
+    color: #fff; 
 
 a {
     text-decoration: none;
     color: #add8e6;
     margin-right: 20px;
     padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.2); /* Fundo semitransparente nos links */
-    border-radius: 4px; /* Bordas arredondadas para os links */
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 4px; 
 }
 
 a:hover {
     color: #00f;
-    background-color: rgba(255, 255, 255, 0.4); /* Mais visível ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0.4); 
 }
 
 .container {
