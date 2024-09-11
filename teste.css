@@ -1,0 +1,124 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://example.com/your-background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+header, section, div, footer {
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente para maior contraste */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 20px; /* Espaço entre seções */
+}
+
+/* Estilização dos títulos e texto */
+h1, h2, p, a {
+    color: #fff; /* Texto branco para contraste */
+}
+
+/* Estilização dos links */
+a {
+    text-decoration: none;
+    color: #add8e6;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo semitransparente nos links */
+    border-radius: 4px; /* Bordas arredondadas para os links */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para o hover */
+}
+
+a:hover {
+    color: #00f;
+    background-color: rgba(255, 255, 255, 0.4); /* Mais visível ao passar o mouse */
+}
+
+/* Container principal */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilização do formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave para o hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #00008b;
+}
+
+/* Navegação */
+nav {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo semitransparente nos links de navegação */
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #add8e6;
+}
+
+/* Seções principais */
+main {
+    padding: 20px 0;
+}
+
+/* Projetos */
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-left: 5px solid #add8e6;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
